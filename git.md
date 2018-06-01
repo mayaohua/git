@@ -20,3 +20,9 @@
 
 #创建SSH Key
 ssh-keygen -t rsa -C "youremail@example.com"
+
+#添加远程仓库
+git remote add origin git@github.com:username/xxxx.git
+
+#首次提交到远程仓库
+git push -u origin master
