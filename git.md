@@ -8,3 +8,7 @@
  git add filename1,filename2
 #提交文件到本地仓库
  git commit -m <message>
+#查看当前工作区状态
+git status
+#查看文件改动
+git diff filename
